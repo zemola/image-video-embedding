@@ -5,4 +5,9 @@
 > - [Live Demo]() **SOON** :shipit:
 
 ## Assignment
+
 > Embedding the YouTube video player into the page so it actually plays and showing little thumbnail images along the right side.
+
+## Acknowledgments
+
+* Icons from [Material Design Icons](https://materialdesignicons.com/)
