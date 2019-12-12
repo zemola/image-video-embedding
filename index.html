@@ -14,20 +14,30 @@
   <body>
     <div class="container">
       <header>
-        <img src="images/menu.svg" alt="menu" />
-        <div class="logo">
+        <button class="btn menu-btn">
+          <img src="images/menu.svg" alt="menu" />
+        </button>
+        <button class="btn home-btn">
           <img src="images/youtube.svg" alt="youtube logo" />
           <h1>YouTube</h1>
-        </div>
+        </button>
         <div class="search-bar">
-          <input type="text" class="search-input" />
-          <button><img src="images/magnify.svg" alt="magnify" /></button>
+          <input class="search-input" type="text" placeholder="Search" />
+          <button class="btn search-btn">
+            <img src="images/magnify.svg" alt="magnify" />
+          </button>
         </div>
         <div class="user-options">
-          <img src="images/video-plus.svg" alt="add video" />
-          <img src="images/apps.svg" alt="apps" />
-          <img src="images/dots-vertical.svg" alt="options" />
-          <button class="user">
+          <button class="btn add-video-btn">
+            <img src="images/video-plus.svg" alt="add video" />
+          </button>
+          <button class="btn apps-btn">
+            <img src="images/apps.svg" alt="apps" />
+          </button>
+          <button class="btn options-btn">
+            <img src="images/dots-vertical.svg" alt="options" />
+          </button>
+          <button class="btn sign-btn">
             <img src="images/account-circle.svg" alt="no user avatar" />
             <span>SIGN IN</span>
           </button>
