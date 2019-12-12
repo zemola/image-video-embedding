@@ -1,3 +1,5 @@
+/* global style */
+
 *,
 *::before,
 *::after {
@@ -5,8 +7,102 @@
   margin: 0;
   box-sizing: border-box;
   font-size: inherit;
+  color: #fff;
 }
 
 html {
   font-size: 10px;
+  font-family: Roboto sans-serif;
+}
+
+.btn {
+  width: 24px;
+  height: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.container {
+  min-height: 100vh;
+  background-color: #1f1f1f;
+}
+
+/* header style */
+
+header {
+  display: flex;
+  align-items: center;
+  height: 5.6rem;
+  background-color: #282828;
+}
+
+.menu-btn {
+  margin-right: 2.4rem;
+  margin: 0 2.4rem;
+}
+
+.home-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80px;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.search-bar {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  width: 575px;
+  height: 32px;
+  padding: 1rem;
+  font-size: 1.6rem;
+  background-color: rgba(0, 0, 0, 0.55);
+  border: 1px solid rgb(49, 49, 49);
+}
+
+.search-btn {
+  width: 65px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border: 1px solid rgb(49, 49, 49);
+  background-color: #393939;
+}
+
+.search-btn img {
+  width: 20px;
+}
+
+.user-options {
+  display: flex;
+}
+
+.user-options .btn {
+  margin-right: 2.4rem;
+  height: 40px;
+}
+
+.user-options .sign-btn {
+  width: 106px;
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+  margin-right: 1.4rem;
+  margin-left: -1rem;
+  font-size: 1.4rem;
+  border-radius: 2px;
+  border: 1px solid #3ea6ff;
+}
+
+.sign-btn span {
+  color: #3ea6ff;
 }
