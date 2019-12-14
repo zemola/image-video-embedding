@@ -114,12 +114,15 @@ header {
 
 /* main content */
 
+main {
+  width: 916px;
+}
+
 .content {
   padding: 8rem;
 }
 
 .video-container {
-  width: 916px;
   border-bottom: 1px solid rgba(170, 170, 170, 0.2);
 }
 
@@ -189,4 +192,55 @@ header {
   align-self: flex-end;
   width: 24px;
   height: 24px;
+}
+
+/* description */
+
+/* channel-info */
+
+.channel-info {
+  display: flex;
+  align-items: center;
+  padding-top: 1.5rem;
+}
+
+.channel-logo img {
+  width: 48px;
+  border-radius: 50%;
+}
+
+.channel-primary-info {
+  padding-left: 1.5rem;
+}
+
+.channel-name {
+  display: flex;
+  align-items: center;
+}
+
+.channel-name img {
+  width: 1.4rem;
+}
+
+.channel-link {
+  width: auto;
+  padding-right: 0.4rem;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+.channel-subscribers-count {
+  color: #aaa;
+  font-size: 1.3rem;
+}
+
+.subscribe-btn {
+  width: auto;
+  height: auto;
+  margin-left: auto;
+  padding: 1rem 1.5rem;
+  border-radius: 2px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  background-color: #bd0000;
 }
