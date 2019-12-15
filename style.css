@@ -244,3 +244,70 @@ main {
   font-weight: 500;
   background-color: #bd0000;
 }
+
+.video-description {
+  margin-top: 1rem;
+  padding-left: 6.3rem;
+  border-bottom: 1px solid rgba(170, 170, 170, 0.2);
+}
+
+.video-description-para {
+  font-size: 1.4rem;
+}
+
+.game-info {
+  margin-top: 1.6rem;
+  display: grid;
+  grid-gap: 1.6rem;
+  grid-auto-flow: column;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  flex-grow: 1;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+  height: 100%;
+}
+
+.card.gaming > img {
+  margin-left: 1.6rem;
+  border-radius: 50%;
+  height: 55%;
+}
+
+.card-title {
+  font-size: 1.6rem;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1.6rem;
+}
+
+.card-link {
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: #aaa;
+}
+
+.game-year {
+  padding: 0.6rem 0;
+  font-size: 1.2rem;
+  color: #aaa;
+}
+
+.show-more-btn {
+  width: auto;
+  margin: 1.6rem 0;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #aaa;
+}
