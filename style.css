@@ -322,14 +322,30 @@ aside {
 
 /* up-next */
 
+.up-next {
+  margin-bottom: 0.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(170, 170, 170, 0.2);
+}
+
 .autoplay {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-bottom: 1rem;
 }
 
 .autoplay > span {
+  flex-grow: 1;
   font-size: 1.6rem;
+}
+
+.autoplay span ~ span {
+  padding-right: 1rem;
+  flex-grow: 0;
+  color: #aaa;
+  font-size: 1.3rem;
+  font-weight: 500;
 }
 
 .switch {
@@ -352,4 +368,70 @@ aside {
   border-radius: 50%;
   background-color: #3ea6ff;
   box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.5);
+}
+
+/* thumbnail */
+
+.thumbnail {
+  display: flex;
+  width: 402px;
+  padding-top: 0.5rem;
+  text-decoration: none;
+}
+
+.duration {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: -2.7rem;
+  text-align: right;
+}
+
+.duration span {
+  padding: 0.1rem 0.4rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border-radius: 2px;
+  background-color: #000;
+}
+
+.thumbnail-img img {
+  height: 96px;
+}
+
+.thumbnail-info {
+  padding: 0 1rem;
+}
+
+.thumbnail-title {
+  padding-bottom: 0.5rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.thumbnail-channel-name {
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  color: #aaa;
+}
+
+.thumbnail-channel-name > img {
+  margin-left: 0.5rem;
+  width: 14px;
+}
+
+.thumbnail-video-views {
+  padding-top: 0.2rem;
+  padding-bottom: 0.3rem;
+  font-size: 1.3rem;
+  color: #aaa;
+}
+
+.thumbnail-new {
+  padding: 0.1rem 0.5rem;
+  background-color: rgb(51, 51, 51);
+  border-radius: 2px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #aaa;
 }
