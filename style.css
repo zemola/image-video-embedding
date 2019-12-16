@@ -116,9 +116,12 @@ header {
 
 main {
   width: 916px;
+  margin-right: 2.4rem;
 }
 
 .content {
+  display: flex;
+  flex-wrap: wrap;
   padding: 8rem;
 }
 
@@ -309,4 +312,44 @@ main {
   font-size: 1.3rem;
   font-weight: 500;
   color: #aaa;
+}
+
+/* aside */
+
+aside {
+  flex-grow: 1;
+}
+
+/* up-next */
+
+.autoplay {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.autoplay > span {
+  font-size: 1.6rem;
+}
+
+.switch {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 38px;
+  height: 15px;
+  border-radius: 15px;
+  border: none;
+  background-color: rgb(66, 66, 66);
+}
+
+.switch::before {
+  content: '';
+  position: absolute;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #3ea6ff;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.5);
 }
