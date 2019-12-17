@@ -373,6 +373,7 @@ aside {
 /* thumbnail */
 
 .thumbnail {
+  position: relative;
   display: flex;
   width: 402px;
   padding-top: 0.5rem;
@@ -392,6 +393,10 @@ aside {
   font-weight: 500;
   border-radius: 2px;
   background-color: #000;
+}
+
+.thumbnail-img {
+  position: relative;
 }
 
 .thumbnail-img img {
@@ -434,4 +439,45 @@ aside {
   font-size: 1.2rem;
   font-weight: 500;
   color: #aaa;
+}
+
+.thumbnail-img-overlay {
+  visibility: hidden;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  top: 0;
+}
+
+.thumbnail-img-overlay .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  margin: 0.4rem 0.4rem 0 0;
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.thumbnail-img-overlay img {
+  width: 20px;
+  height: 20px;
+}
+
+.thumbnail-overlay {
+  visibility: hidden;
+  position: absolute;
+  right: 0;
+}
+
+.thumbnail-overlay .btn {
+  margin-right: -1rem;
+}
+
+.thumbnail:hover .thumbnail-img-overlay,
+.thumbnail:hover .thumbnail-overlay {
+  visibility: initial;
 }
