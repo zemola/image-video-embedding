@@ -332,7 +332,7 @@ aside {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
 }
 
 .autoplay > span {
@@ -376,7 +376,7 @@ aside {
   position: relative;
   display: flex;
   width: 402px;
-  padding-top: 0.5rem;
+  padding-top: 1rem;
   text-decoration: none;
 }
 
@@ -408,7 +408,7 @@ aside {
 }
 
 .thumbnail-title {
-  padding-bottom: 0.5rem;
+  padding: 0 1rem 0.5rem 0;
   font-size: 1.4rem;
   font-weight: 500;
 }
@@ -425,7 +425,7 @@ aside {
   width: 14px;
 }
 
-.thumbnail-video-views {
+.thumbnail-video-info {
   padding-top: 0.2rem;
   padding-bottom: 0.3rem;
   font-size: 1.3rem;
