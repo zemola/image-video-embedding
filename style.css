@@ -39,6 +39,7 @@ header {
   align-items: center;
   height: 5.6rem;
   background-color: #282828fa;
+  z-index: 69;
 }
 
 .menu-btn {
