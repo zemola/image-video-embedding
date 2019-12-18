@@ -481,3 +481,28 @@ aside {
 .thumbnail:hover .thumbnail-overlay {
   visibility: initial;
 }
+
+/* comment-section */
+
+.comments-info {
+  display: flex;
+  align-items: center;
+}
+
+.comments-count {
+  font-size: 1.6rem;
+}
+
+.sort-btn {
+  display: flex;
+  align-items: center;
+  width: auto;
+  margin-left: 3rem;
+  font-weight: 500;
+  font-size: 1.4rem;
+  color: #aaa;
+}
+
+.sort-btn img {
+  padding-right: 1rem;
+}
