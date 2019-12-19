@@ -116,13 +116,12 @@ header {
 /* main content */
 
 main {
-  width: 916px;
-  margin-right: 2.4rem;
+  margin: 0 2.4rem 3rem 0;
 }
 
 .content {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template: auto 1fr / auto auto;
   padding: 8rem;
 }
 
@@ -318,7 +317,8 @@ main {
 /* aside */
 
 aside {
-  flex-grow: 1;
+  grid-column: 2;
+  grid-row: 1 / span 2;
 }
 
 /* up-next */
@@ -376,7 +376,7 @@ aside {
 .thumbnail {
   position: relative;
   display: flex;
-  width: 402px;
+  width: 100%;
   padding-top: 1rem;
   text-decoration: none;
 }
