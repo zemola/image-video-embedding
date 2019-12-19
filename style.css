@@ -15,6 +15,10 @@ html {
   font-size: 10px;
 }
 
+strong {
+  font-weight: 500;
+}
+
 .btn {
   width: 24px;
   height: 24px;
