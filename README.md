@@ -10,4 +10,5 @@
 
 ## Acknowledgments
 
-* Icons from [Material Design Icons](https://materialdesignicons.com/)
+- Icons from [Material Design Icons](https://materialdesignicons.com/)
+- Fluid Width Video [CSS-TRICKS](https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php)
