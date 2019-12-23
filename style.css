@@ -129,7 +129,8 @@ main {
 
 .content {
   display: grid;
-  grid-template: auto 1fr / 3fr 1fr;
+  grid-template: auto 1fr / 2fr 1fr;
+  padding-top: 8rem;
   padding: 8rem;
 }
 
@@ -433,6 +434,7 @@ aside {
 }
 
 .thumbnail-title {
+  width: 202px;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
