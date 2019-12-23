@@ -2,7 +2,7 @@
 
 > ## From The Odin Project's [curriculum](https://www.theodinproject.com/lessons/embedding-images-and-video)
 
-> - [Live Demo]() **SOON** :shipit:
+> - [Live Demo](https://igorashs.github.io/embedding-images-and-video/) :shipit:
 
 ## Assignment
 
